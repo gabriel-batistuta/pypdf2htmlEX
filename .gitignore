@@ -1,0 +1,5 @@
+venv/
+keys.json
+main.py
+*.json
+*.pdf
