@@ -1,6 +1,11 @@
 # PDF2HTMLEX
 pypdf2htmlex is a Python wrapper for the PDF2HTMLEX
 
+# Installing
+```bash
+pip install pypdf2htmlex
+```
+
 # Using
 
 ## making the HTML file from a pdf
