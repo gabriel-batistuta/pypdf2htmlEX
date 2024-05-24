@@ -3,3 +3,6 @@ keys.json
 main.py
 *.json
 *.pdf
+main.py
+__pycache__/
+*.html
