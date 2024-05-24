@@ -6,3 +6,5 @@ main.py
 main.py
 __pycache__/
 *.html
+/dist
+pypdf2htmlex.egg-info/
