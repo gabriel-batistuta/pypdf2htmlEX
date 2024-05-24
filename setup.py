@@ -3,13 +3,6 @@ from setuptools import setup
 with open("README.md", "r") as file:
     readme = file.read()
 
-with open("requirements.txt") as file:
-    requirements_aux = []
-    requirements = file.readlines()
-    for r in requirements:
-        r = r.replace("\n","")
-        requirements_aux.append(r)
-
 setup(name='pypdf2htmlex',
     version='1.0',
     license='MIT License',
@@ -20,5 +13,5 @@ setup(name='pypdf2htmlex',
     keywords='pdf2htmlEX pdf-to-html pdf html wrapper',
     description=u'Wrapper não oficial do pdf2htmlEX',
     packages=['pypdf2htmlEX'],
-    install_requires=requirements_aux,)
+    install_requires=[],)
 
