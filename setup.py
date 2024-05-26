@@ -13,5 +13,9 @@ setup(name='pypdf2htmlex',
     keywords='pdf2htmlEX pdf-to-html pdf html wrapper',
     description=u'Wrapper não oficial do pdf2htmlEX',
     packages=['pypdf2htmlEX'],
+    url="https://github.com/gabriel-batistuta/pypdf2htmlEX",
+    project_urls = {
+        'Repository': 'https://github.com/gabriel-batistuta/pypdf2htmlEX'
+    },
     install_requires=[],)
 
