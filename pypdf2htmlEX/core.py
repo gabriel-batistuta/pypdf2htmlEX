@@ -25,7 +25,7 @@ class PDF():
 
     def to_html(self, file_path=None):
         if file_path:
-            args = ["-o", file_path]
+            args = ["--dest-dir", file_path]
             self.__make_html(args)
         else:
             self.__make_html()
