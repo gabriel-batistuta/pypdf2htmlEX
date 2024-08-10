@@ -4,7 +4,7 @@ with open("README.md", "r") as file:
     readme = file.read()
 
 setup(name='pypdf2htmlex',
-    version='1.4',
+    version='1.6',
     license='MIT License',
     author='Gabriel Batistuta',
     long_description=readme,
