@@ -27,3 +27,25 @@ import pypdf2htmlEX
 pdf = pypdf2htmlEX.PDF("path-to-my-file.pdf", drm=True)
 pdf.to_html()
 ```
+## making HTML files from dir with various pdf 
+
+this code will make html files of all pdf in same folder 'pdfs'
+```python
+import pypdf2htmlEX
+
+pypdf2htmlEX.dir_to_html(dir_path='pdfs')
+```
+
+this code will make html files of all pdf in folder 'pdfs' on folder 'htmls'
+```python
+import pypdf2htmlEX
+
+pypdf2htmlEX.dir_to_html(dir_path='pdfs', dest_dir='test')
+```
+
+this code will make html files of all pdf in folder 'pdfs' on folder 'htmls' and every html file will have sequential after the name File, ex: "File_1.html", "File_2.html".
+```python
+import pypdf2htmlEX
+
+pypdf2htmlEX.dir_to_html(dir_path='pdfs', dest_dir='test', new_file_name='File_')
+```
