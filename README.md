@@ -40,12 +40,12 @@ this code will make html files of all pdf in folder 'pdfs' on folder 'htmls'
 ```python
 import pypdf2htmlEX
 
-pypdf2htmlEX.dir_to_html(dir_path='pdfs', dest_dir='test')
+pypdf2htmlEX.dir_to_html(dir_path='pdfs', dest_dir='htmls')
 ```
 
 this code will make html files of all pdf in folder 'pdfs' on folder 'htmls' and every html file will have sequential after the name File, ex: "File_1.html", "File_2.html".
 ```python
 import pypdf2htmlEX
 
-pypdf2htmlEX.dir_to_html(dir_path='pdfs', dest_dir='test', new_file_name='File_')
+pypdf2htmlEX.dir_to_html(dir_path='pdfs', dest_dir='htmls', new_file_name='File_')
 ```
