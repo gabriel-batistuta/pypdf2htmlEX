@@ -1,5 +1,5 @@
-# PDF2HTMLEX
-pypdf2htmlex is a Python wrapper for the PDF2HTMLEX
+# PYPDF2HTMLEX
+pypdf2htmlex is a Python wrapper for the PDF2HTMLEX (YOU NEED INSTALL THE PDF2HTMLEX IN YOUR PC FOR USE THIS PYTHON LIBRARY)
 
 # Installing
 ```bash
